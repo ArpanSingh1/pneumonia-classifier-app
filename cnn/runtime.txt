@@ -1,0 +1,5 @@
+cd Desktop\cnn
+echo python-3.11.9 > runtime.txt
+git add runtime.txt
+git commit -m "Pin Python version for TensorFlow compatibility"
+git push
