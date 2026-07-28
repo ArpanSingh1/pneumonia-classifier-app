@@ -6,7 +6,7 @@ import os
 
 model = tf.keras.models.load_model("pneumonia_model.keras")
 
-IMG_SIZE = (224, 224)  # adjust to whatever size you trained on
+IMG_SIZE = (64, 64)  # adjust to whatever size you trained on
 CLASS_NAMES = ["NORMAL", "PNEUMONIA"]  # adjust order to match your training
 
 def predict(img: Image.Image):
